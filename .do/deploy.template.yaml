@@ -1,0 +1,7 @@
+spec:
+  name: multitableapi
+  services:
+    - name: web
+      git:
+        branch: master
+        repo_clone_url: https://github.com/JillMOry/multiplicationTableAPI
