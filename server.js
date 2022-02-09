@@ -31,7 +31,7 @@ function multiTable(id){
 
 
 app.get('/', (request, response) => {
-    response.send("Hello to multiplication table")
+    response.send("Hello to multiplication table.  add a / and a number at the end of the URL")
 });
 
 app.get('/:id', (request, response) => {
